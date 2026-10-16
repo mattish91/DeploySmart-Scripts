@@ -1,4 +1,4 @@
-# DeploySmart Scripts
+# $$\textsf{\color{white}Deploy\textsf{\color{#0fda00}Smart}}$$ Scripts
 
 DeploySmart's public PowerShell application library, intended to be browsed by
 category and imported into a DeploySmart deployment after review.
