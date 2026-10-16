@@ -1,0 +1,19 @@
+<Configuration>
+  <Info Description="Generic Office LTSC 2024 volume-license configuration" />
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2024" MigrateArch="TRUE">
+    <Product ID="ProPlus2024Volume">
+      <Language ID="en-us" />
+      <Language ID="MatchPreviousMSI" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+    <Product ID="ProofingTools">
+      <Language ID="en-us" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <Display Level="None" AcceptEULA="TRUE" />
+</Configuration>
