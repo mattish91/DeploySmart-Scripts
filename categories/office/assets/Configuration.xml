@@ -1,5 +1,5 @@
 <Configuration ID="7fff3527-aca3-4f31-9286-d8351de13694">
-  <Info Description="Microsoft Office applications deployed by Karolinska Institutet" />
+  <Info Description="Microsoft Office applications deployed with DeploySmart" />
   <Add OfficeClientEdition="64" Channel="Current" MigrateArch="TRUE">
     <Product ID="O365ProPlusRetail">
       <Language ID="sv-se" />
