@@ -1,15 +1,11 @@
 # Script made by Mattias Magnusson 2025-08-21
 # Checks and installs Windows Updates after application installation is done. 
 # Doing this before application installations can and will result in applications failing to install.
-# Updated 2025-08-21
+# Updated 2026-11-05
 
 function Get-And-Install-AllUpdates {
     $timestamp = Get-Date -Format "yy-MM-dd HH-mm"
-    $logPath = "C:\logs\Update $timestamp.log"
-
-    if (-not (Test-Path "C:\logs")) {
-        New-Item -Path "C:\logs" -ItemType Directory -Force | Out-Null
-    }
+    $logPath = "C:\DeploySmart\logs\WindowsUpdate $timestamp.log"
 
     function Log($message) {
         $timestampNow = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
