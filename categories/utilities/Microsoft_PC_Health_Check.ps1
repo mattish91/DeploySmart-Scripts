@@ -1,6 +1,6 @@
 
 $msiUrl = "https://aka.ms/GetPCHealthCheckApp"
-$downloadPath = "C:\TempPath\PCHealthCheckSetup.msi"
+$downloadPath = "C:\DeploySmart\TempPath\PCHealthCheckSetup.msi"
 
 # Download the MSI
 Invoke-WebRequest -Uri $msiUrl -OutFile $downloadPath
