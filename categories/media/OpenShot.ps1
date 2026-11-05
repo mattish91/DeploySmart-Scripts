@@ -2,7 +2,7 @@
 # Script made by Mattias Magnusson 2025-06-09
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath"
+$tp = "C:\DeploySmart\TempPath"
 mkdir $tp -ErrorAction SilentlyContinue
 $owner = "OpenShot"
 $repo = "openshot-qt"
