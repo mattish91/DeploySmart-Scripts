@@ -2,7 +2,7 @@
 # Script made by Mattias Magnusson 2025-08-22
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath" 
+$tp = "C:\DeploySmart\TempPath" 
 mkdir $tp -EA SilentlyContinue
 $Url = "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe"
 $Installer = "brave_installer-x64.exe"
