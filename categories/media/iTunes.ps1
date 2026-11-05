@@ -8,7 +8,7 @@ $request.AllowAutoRedirect=$false
 $response=$request.GetResponse()
 $dlLink = $response.GetResponseHeader("Location")
 $file = "iTunes64Setup.exe"
-$tp = "C:\TempPath"
+$tp = "C:\DeploySmart\TempPath"
 $InstallerPath = Join-Path $tp $file
 (New-Object System.Net.WebClient).DownloadFile($dlLink, $InstallerPath)
 # First extract the files we need:
