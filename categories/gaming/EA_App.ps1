@@ -2,7 +2,7 @@
 # Installs EA App (latest)
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath" 
+$tp = "C:\DeploySmart\TempPath" 
 $Installer = "EAappInstaller.exe"
 mkdir $tp -EA SilentlyContinue
 $Url1 = "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
