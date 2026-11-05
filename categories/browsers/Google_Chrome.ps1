@@ -1,7 +1,7 @@
 # Automate the install of Google Chrome.
 # Script made by Mattias Magnusson 2025-05-20
 $ProgressPreference = 'SilentlyContinue'
-$tp = "C:\TempPath"
+$tp = "C:\DeploySmart\TempPath"
 if (-not (Test-Path $tp)) {
     New-Item -Path $tp -ItemType Directory -Force | Out-Null
 }
