@@ -14,9 +14,9 @@ if ($KmsServer -eq 'REPLACE_WITH_YOUR_AUTHORIZED_KMS_SERVER') {
 }
 
 $slmgr = Join-Path $env:WINDIR 'System32\slmgr.vbs'
-cscript.exe //nologo $slmgr /skms $KmsServer
+cscript.exe /nologo $slmgr /skms:$KmsServer
 if ($LASTEXITCODE -ne 0) { throw 'Unable to set the Windows KMS host.' }
 Start-Sleep -Seconds 10
 Write-Host 'Activating Windows...'
-cscript.exe //nologo $slmgr /ato
+cscript.exe /nologo $slmgr /ato
 if ($LASTEXITCODE -ne 0) { throw 'Windows activation failed.' }
