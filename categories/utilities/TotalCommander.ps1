@@ -3,7 +3,7 @@
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $installerUrl = "https://totalcommander.ch/1156/tcmd1156x64.exe"
-$installerPath = "C:\TempPath\tcmd1156x64.exe"
+$installerPath = "C:\DeploySmart\TempPath\tcmd1156x64.exe"
 New-Item -ItemType Directory -Path "C:\TempPath" -Force | Out-Null
 New-Item -ItemType Directory -Path $logDir -Force | Out-Null
 Invoke-WebRequest -Uri $installerUrl -OutFile $installerPath -UseBasicParsing
