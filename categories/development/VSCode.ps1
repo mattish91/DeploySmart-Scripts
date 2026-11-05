@@ -2,7 +2,7 @@
 # Script made by Mattias Magnusson 2025-06-09
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath"
+$tp = "C:\DeploySmart\TempPath"
 mkdir $tp -Force
 $installerUrl = "https://update.code.visualstudio.com/latest/win32-x64-user/stable"
 $installerPath = "$tp\VSCodeSetup.exe"
