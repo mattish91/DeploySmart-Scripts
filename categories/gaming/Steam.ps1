@@ -2,7 +2,7 @@
 # Installs Steam (latest)
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath" 
+$tp = "C:\DeploySmart\TempPath" 
 $Installer = "SteamSetup.exe"
 mkdir $tp -EA SilentlyContinue
 $Url1 = "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
