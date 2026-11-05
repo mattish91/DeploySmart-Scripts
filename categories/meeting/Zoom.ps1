@@ -2,7 +2,7 @@
 # Script made by Mattias Magnusson 2025-06-09
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath"
+$tp = "C:\DeploySmart\TempPath"
 mkdir $tp
 $Url = "https://zoom.com/client/latest/ZoomInstallerFull.msi?archType=x64"
 $Installer = "ZoomInstallerFull.msi"
