@@ -3,7 +3,7 @@
 # Updated 2025-08-12 By Mattias Magnusson
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath"
+$tp = "C:\DeploySmart\TempPath"
 if (-not (Test-Path $tp)) {
     New-Item -Path $tp -ItemType Directory -Force | Out-Null
 }
