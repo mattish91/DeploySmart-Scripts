@@ -13,9 +13,9 @@ if ($KmsServer -eq 'REPLACE_WITH_YOUR_AUTHORIZED_KMS_SERVER') {
 }
 
 $slmgr = Join-Path $env:WINDIR 'System32\slmgr.vbs'
-cscript.exe //nologo $slmgr /ipk TVRH6-WHNXV-R9WG3-9XRFY-MY832
+cscript.exe /nologo $slmgr /ipk TVRH6-WHNXV-R9WG3-9XRFY-MY832
 if ($LASTEXITCODE -ne 0) { throw 'Unable to install the Windows Server KMS client key.' }
-cscript.exe //nologo $slmgr /skms $KmsServer
+cscript.exe /nologo $slmgr /skms:$KmsServer
 if ($LASTEXITCODE -ne 0) { throw 'Unable to set the Windows KMS host.' }
-cscript.exe //nologo $slmgr /ato
+cscript.exe /nologo $slmgr /ato
 if ($LASTEXITCODE -ne 0) { throw 'Windows Server activation failed.' }
