@@ -2,7 +2,7 @@
 # Script made by Mattias Magnusson 2025-08-22
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath" 
+$tp = "C:\DeploySmart\TempPath" 
 mkdir $tp -EA SilentlyContinue
 $Installer = "SpotifyFullSetup.exe"
 $Url = "http://download.spotify.com/$Installer"
