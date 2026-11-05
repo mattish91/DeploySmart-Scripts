@@ -2,7 +2,7 @@
 # Script made by Mattias Magnusson 2025-09-23
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath" 
+$tp = "C:\DeploySmart\TempPath" 
 mkdir $tp -EA SilentlyContinue
 $Url = "https://downloads.ntlite.com/files/NTLite_setup_x64.exe"
 $Installer = "NTLite_setup_x64.exe"
