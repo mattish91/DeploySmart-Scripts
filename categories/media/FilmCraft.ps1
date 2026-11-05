@@ -1,6 +1,6 @@
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$tp = "C:\TempPath" 
+$tp = "C:\DeploySmart\TempPath" 
 mkdir $tp -EA SilentlyContinue
 $owner = "storytold"
 $repo = "filmcraft"
