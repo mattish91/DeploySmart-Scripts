@@ -178,4 +178,23 @@ Support files should:
 
 ### 1. Select a Category
 
-Choose an existing category
+Choose an existing category or add a new one.
+
+## Support DeploySmart
+
+DeploySmart is an independent project developed and maintained by Mattias Magnusson.
+
+If DeploySmart has helped your organization reduce deployment time, automate workflows, or simplify device provisioning, consider supporting ongoing development.
+
+Support helps fund:
+
+- Infrastructure
+- Testing environments
+- Development hardware
+- Software licensing
+- New features and integrations
+
+The first 500 000 SEK will be going towards resolving a huge debt after a year of unemployment.
+
+Contact:
+mattias@mspot.se
