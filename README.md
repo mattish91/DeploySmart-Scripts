@@ -1,4 +1,4 @@
-# $$\textsf{\color{#6EE7B7}Deploy\textsf{\color{white}Smart}}$$ Scripts
+# $$\textsf{\color{#6EE7B7}Deploy\textsf{\color{white}Smart Scripts}}$$
 
 ## Relationship to DeploySmart
 
