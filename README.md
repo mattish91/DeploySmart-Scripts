@@ -180,6 +180,8 @@ Support files should:
 
 Choose an existing category or add a new one.
 
+---
+
 ## Support DeploySmart
 
 DeploySmart is an independent project developed and maintained by Mattias Magnusson.
