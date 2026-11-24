@@ -49,9 +49,12 @@ This repository can be used as a default script source for DeploySmart deploymen
 ```text
 categories/
 │
-├─ business/
 ├─ browsers/
+├─ business/
+├─ development
+├─ gaming
 ├─ media/
+├─ meeting
 ├─ office/
 │   └─ assets/
 ├─ security/
