@@ -198,8 +198,3 @@ Support helps fund:
 - Development hardware
 - Software licensing
 - New features and integrations
-
-The first 500 000 SEK will be going towards resolving a huge debt after a year of unemployment.
-
-Contact:
-mattias@mspot.se
