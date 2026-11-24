@@ -187,14 +187,22 @@ Choose an existing category or add a new one.
 
 ## Support DeploySmart
 
-DeploySmart is an independent project developed and maintained by Mattias Magnusson.
+DeploySmart is an independent open-source project developed and maintained by Mattias Magnusson.
 
-If DeploySmart has helped your organization reduce deployment time, automate workflows, or simplify device provisioning, consider supporting ongoing development.
+If DeploySmart has helped save time, streamline deployments, automate workflows, or simplify device provisioning, please consider supporting continued development.
 
-Support helps fund:
+Your support helps fund:
 
-- Infrastructure
+- Infrastructure and hosting
 - Testing environments
 - Development hardware
 - Software licensing
+- Documentation and support resources
 - New features and integrations
+
+Every contribution, regardless of size, helps keep the project active and evolving.
+
+❤️ Support DeploySmart:
+https://www.paypal.com/donate/?hosted_button_id=3AHV7NHQWMJSC
+
+Thank you for supporting independent open-source development.
