@@ -1,5 +1,44 @@
-# Automate the install of Firefox.
-# Script made by Mattias Magnusson 2025-06-09
+<#
+.SYNOPSIS
+Automate the installation of Mozilla Firefox.
+
+.DESCRIPTION
+Downloads and installs the latest available version of Mozilla Firefox.
+Designed for unattended deployments and remote management systems.
+
+.NOTES
+Author      : Mattias Magnusson
+Company     : Mspot / DeploySmart
+Created     : 2025-06-09
+Modified    : 2026-11-24
+Version     : 1.0.0
+License     : MIT
+
+.REQUIREMENTS
+- PowerShell 5.1 or later
+- Administrator privileges
+- Internet connection
+
+.EXAMPLE
+.\Install-Firefox.ps1
+
+Installs the latest version of Firefox using default settings.
+
+.OUTPUTS
+None
+
+.EXITCODES
+0 = Success
+1 = General Error
+2 = Download Failed
+3 = Installation Failed
+
+.CHANGELOG
+
+1.0.0
+- Initial release
+#>
+
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $tp = "C:\DeploySmart\TempPath"
