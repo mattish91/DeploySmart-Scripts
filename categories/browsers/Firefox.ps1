@@ -8,7 +8,7 @@ Designed for unattended deployments and remote management systems.
 
 .NOTES
 Author      : Mattias Magnusson
-Company     : Mspot / DeploySmart
+Project     : DeploySmart
 Created     : 2025-06-09
 Modified    : 2026-11-24
 Version     : 1.0.0
